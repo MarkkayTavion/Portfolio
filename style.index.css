@@ -8,9 +8,55 @@ body {
     position: relative;
 }
 
+img {
+    border-radius: 50%;
+}
+
+.home-pic {
+  display: flex;
+  justify-content: ;
+  margin: auto;
+  height: 700px;
+
+}
+
+.devontae {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #ff9900;
+    font-size: 200px;
+    font-family: 'Smooch', cursive;
+}
+
+.devontae-ferguson {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: #ff9900;
+    font-family: 'Smooch', cursive;
+    font-size: 30px;
+}
+
+.home-text {
+    display: flex;
+    color: #d2d2d2;
+    width: 30em;
+    padding: 5px;
+    padding-right: -20em;
+    margin-top: 15em;
+    margin-bottom: 15em;
+    margin-right: 10em;
+    float: right;
+    border: none;
+    font-family: 'Smooch', cursive;
+    font-size: 20px;
+    align-self: flex-end;
+}
+
 .container, .menu {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     position: absolute;
     margin: auto;
     top: 20px;
@@ -27,8 +73,8 @@ body {
 
 .toggle {
     height: 0px;
-    width: 80px;
-    border-bottom: 30px solid #ff9900;
+    width: 100px;
+    border-bottom: 50px solid #ff9900;
     border-right: 15px solid transparent;
     border-left: 15px solid transparent;
     position: absolute;
@@ -50,7 +96,7 @@ body {
 .item {
     height: 0px;
     width: 100px;
-    border-bottom: 30px solid #fff;
+    border-bottom: 38px solid #fff;
     border-right: 15px solid transparent;
     border-left: 15px solid transparent;
     position: absolute;
