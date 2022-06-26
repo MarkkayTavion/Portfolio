@@ -7,13 +7,19 @@ body {
     background-size: cover;
     position: relative;
 }
+/* Nav Bar */
+
+span {
+    color: black;
+    background-color: #ff9900;
+}
 
 .container, .menu {
     height: 100px;
     width: 100px;
     position: absolute;
-    margin: auto;
-    top: 20px;
+    /* margin: auto; */
+    top: 10em;
     bottom: 0;
     left: 25px;
     right: 0;
@@ -88,10 +94,132 @@ a {
     position: relative;
     top: 20px;
     left: 9px;
+    color: red;
 }
 
 i:hover {
     color: #ffc061;
     transform: scale(1.3);
     transition: 0.5s;
+}
+
+/* Text */
+h1 {
+    color: white;
+    font-size: 140px;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+.devontae-ferguson {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: #ff9900;
+    font-family: 'Smooch', cursive;
+    font-size: 30px;
+}
+p {
+    position: absolute; 
+    top: 450px; 
+    left: 0; 
+    max-width: 85% center;
+    text-align: center;
+    background-color: #ff9900;
+    
+}
+h2 {
+    position: absolute; 
+    top: 5px; 
+    left: 0; 
+    max-width: 100%;
+    text-align: center;
+    background-color: #ff9900;
+    
+}
+
+/* Image */
+.img-container {
+    /* display: flex; */
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    top: 25em;
+    justify-content: end;
+    /* padding-bottom: 20px; */
+}
+img {
+    
+}
+
+/* resume button */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f7f8fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+button {
+    background-color: #47a386;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 20px 55px;
+    font-size: 20px;
+    position: relative;
+    right: 20em;
+    top: 20em;
+}
+
+#close {
+    left: 5em;
+    top: 50vh; 
+}
+
+.modal-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    height: 90vh;
+    width: 50vw;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+.modal-container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal {
+    background-color: rgb(182, 16, 16);
+    padding: 30px 50px;
+    width: auto;
+    max-width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.modal h1 {
+    margin: 0;
+}
+.modal p {
+    content:'';
+    font-size: 20px;
+    opacity: 1;
 }
