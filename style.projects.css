@@ -182,4 +182,15 @@ p {
     background-color: transparent;
     color: white;
     text-align: center;
-  }
+}
+
+/* media queries */
+
+@media screen and (max-width: 350px) {
+    section {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1em;
+        grid-row-gap: 100px;
+    }
+}
