@@ -1,7 +1,8 @@
 //Navigation
+home = document.querySelector('#item-home')
 let j = 0;
 let i = document.getElementById('menu').childNodes;
-let expan = document.querySelector('.container');
+let expan = document.querySelector('.toggle');
 expan.addEventListener('click', expand)
 function expand() {
     if (j==0){
@@ -30,3 +31,9 @@ function expand() {
     }
 }
 //Navigation^^
+// home.addEventListener('click', (event) =>{
+//     event.stopPropagation()
+//     console.log("hello")
+// })
+
+// console.log(home)

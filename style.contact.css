@@ -19,9 +19,9 @@ span {
 .container, .menu {
     height: 100px;
     width: 100px;
-    position: absolute;
+    position: fixed;
     /* margin: auto; */
-    top: 10em;
+    top: 5em;
     bottom: 0;
     left: 25px;
     right: 0;
@@ -44,7 +44,7 @@ span {
 }
 
 .toggle::before {
-    content: '';
+    content: normal;
     position: absolute;
     height: 0px;
     width: 40px;
@@ -57,7 +57,7 @@ span {
 
 .item {
     height: 0px;
-    width: 100px;
+    width: 90px;
     border-bottom: 30px solid #fff;
     border-right: 15px solid transparent;
     border-left: 15px solid transparent;
@@ -67,7 +67,7 @@ span {
 }
 
 .item::before {
-    content: '';
+    content: normal;
     position: absolute;
     height: 0px;
     width: 40px;

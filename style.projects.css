@@ -17,9 +17,9 @@ span {
 }
 
 .container, .menu {
-    height: 100px;
-    width: 100px;
-    position: absolute;
+    height: 200px;
+    width: 200px;
+    position: fixed;
     /* margin: auto; */
     top: 10em;
     bottom: 0;
@@ -44,7 +44,7 @@ span {
 }
 
 .toggle::before {
-    content: '';
+    content: normal;
     position: absolute;
     height: 0px;
     width: 40px;
@@ -67,7 +67,7 @@ span {
 }
 
 .item::before {
-    content: '';
+    content: normal;
     position: absolute;
     height: 0px;
     width: 40px;
@@ -110,7 +110,7 @@ h1 {
     color: white;
     font-size: 140px;
     position: absolute;
-    top: 20%;
+    top: 5%;
     left: 45%;
 }
 p {

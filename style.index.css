@@ -7,6 +7,9 @@ body {
     background-size: cover;
     position: relative;
 }
+/* p {
+    font-size: larger;
+} */
 
 img {
     border-radius: 50%;
@@ -40,18 +43,22 @@ img {
 
 .home-text {
     display: flex;
-    color: #d2d2d2;
-    width: 30em;
+    color: #f0e4e4;
+    width: 20em;
     padding: 5px;
-    padding-right: -20em;
-    margin-top: 15em;
+    padding-left: 10em;
+    margin-top: 10em;
     margin-bottom: 15em;
     margin-right: 10em;
     float: right;
     border: none;
     font-family: 'Smooch', cursive;
     font-size: 20px;
-    align-self: flex-end;
+    justify-content: right;
+}
+p {
+    font-size: xx-large;
+
 }
 /* nav */
 .container, .menu {
@@ -85,6 +92,7 @@ img {
 } */
 
 .toggle {
+    /* z-index: -2; */
     height: 0px;
     width: 100px;
     border-bottom: 50px solid #ff9900;
