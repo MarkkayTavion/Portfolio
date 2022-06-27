@@ -53,11 +53,11 @@ img {
     font-size: 20px;
     align-self: flex-end;
 }
-
+/* nav */
 .container, .menu {
     height: 200px;
     width: 200px;
-    position: absolute;
+    position: fixed;
     margin: auto;
     top: 20px;
     bottom: 0;
@@ -66,10 +66,23 @@ img {
     cursor: pointer;
 }
 
-.menu {
+#menu {
     z-index: -1;
     transform:scale(0.9);
 }
+
+/* #item-home {
+    z-index: 0;
+}
+#item-projects {
+    z-index: 1;
+}
+#item-aboutme {
+    z-index: 2;
+}
+#item-contact {
+    z-index: 3;
+} */
 
 .toggle {
     height: 0px;
@@ -82,7 +95,7 @@ img {
 }
 
 .toggle::before {
-    content: '';
+    content: normal;
     position: absolute;
     height: 0px;
     width: 40px;
@@ -105,7 +118,7 @@ img {
 }
 
 .item::before {
-    content: '';
+    content: normal;
     position: absolute;
     height: 0px;
     width: 40px;
@@ -131,7 +144,7 @@ a>i {
 }
 
 a {
-    position: relative;
+    position: absolute;
     top: 20px;
     left: 9px;
 }
@@ -151,4 +164,4 @@ i:hover {
     background-color: transparent;
     color: white;
     text-align: center;
-  }
+}
