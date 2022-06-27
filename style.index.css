@@ -14,7 +14,7 @@ img {
 
 .home-pic {
   display: flex;
-  justify-content: ;
+  justify-content:left;
   margin: auto;
   height: 700px;
 
@@ -165,3 +165,33 @@ i:hover {
     color: white;
     text-align: center;
 }
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1350px) {
+    .home-pic {
+        max-height: 250px;
+        }
+    .home-text{
+        width: 50vw;
+        text-align: center;
+        }
+}
+/* @media screen and (max-width: 1350px) {
+    p {
+        align-content: right;
+        left: 50vw;
+    }
+    .container, .menu {
+        height: 25vh;
+        width: 25vw;
+        position: fixed;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        cursor: pointer;
+    }
+} */
