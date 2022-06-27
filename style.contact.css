@@ -8,6 +8,7 @@ body {
     position: relative;
     padding-bottom: 150px;
 }
+
 /* Nav Bar */
 
 span {
@@ -108,7 +109,7 @@ h1 {
     color: white;
     font-size: 140px;
     position: absolute;
-    top: 20%;
+    top: 5%;
     left: 45%;
 }
 .devontae-ferguson {
@@ -197,11 +198,14 @@ form{
     padding-bottom: 25px;
 }
 
-.contact-image {
+#contact-photo {
     position: absolute;
+    height: 550px;
+    width: 485px;
     bottom: 20px;
-    left: 20px;
-    top: 45vh;
+    left: 75px;
+    top: 40vh;
+    border-radius: 5%;
 }
 
 /* Socials */
@@ -215,8 +219,8 @@ form{
     grid-row-gap: 0px;
     align-items: center;
     justify-content: center;
-    top: 46%;
-    left: 50%;
+    top: 40%;
+    left: 47%;
     }
     
     .github { 
@@ -244,4 +248,119 @@ form{
     background-color: transparent;
     color: white;
     text-align: center;
+  }
+
+  @media screen and (min-width: 1500px) and (max-width: 2150px) {
+    #contact-photo {
+        position: absolute;
+        height: 550px;
+        width: 485px;
+        bottom: 20px;
+        left: 75px;
+        top: 25vh;
+        border-radius: 5%;
+    }
+  }
+  @media screen and (min-width: 1234px) and (max-width: 1499px) {
+    #contact-photo {
+        position: absolute;
+        height: 520px;
+        width: 450px;
+        bottom: 20px;
+        left: 75px;
+        top: 24vh;
+        border-radius: 5%;
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 1233px) {
+    #contact-photo {
+        position: absolute;
+        height: 420px;
+        width: 350px;
+        bottom: 20px;
+        left: 75px;
+        top: 24vh;
+        border-radius: 5%;
+    }
+    .socials {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        align-items: center;
+        justify-content: center;
+        top: 20%;
+        left: 85%;
+        }
+    #github, #linkedin, #codepen {
+        max-width: 50%;
+        justify-content: center;
+        align-items: center;
+        }
+    .form-field{
+        font: 95% Arial, Helvetica, sans-serif;
+        max-width: 100px;
+        margin: 10px auto;
+        padding: 16px;
+        background: #F7F7F7;
+        position: absolute;
+        top: 25em;
+        right: 5px;
+            
+        }
+        h1 {
+            color: white;
+            font-size: 70px;
+            position: absolute;
+            top: 1%;
+            left: 40%;
+        }
+  }
+  @media screen and (max-width: 600px){
+    h1 {
+        color: white;
+        font-size: 70px;
+        position: absolute;
+        top: 1%;
+        left: 40%;
+    }
+    #contact-photo {
+        position: absolute;
+        height: 420px;
+        width: 350px;
+        bottom: 20px;
+        left: 75px;
+        top: 24vh;
+        border-radius: 5%;
+    }
+    .socials {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        align-items: center;
+        justify-content: center;
+        top: 20%;
+        left: 85%;
+        }
+        #github, #linkedin, #codepen {
+            max-width: 50%;
+            justify-content: center;
+            align-items: center;
+            }
+        .form-field{
+            font: 95% Arial, Helvetica, sans-serif;
+            max-width: 100px;
+            margin: 10px auto;
+            padding: 16px;
+            background: #F7F7F7;
+            position: absolute;
+            top: 25em;
+            right: 5px;
+                    
+                }
   }
