@@ -32,15 +32,20 @@ function expand() {
 }
 //Navigation^^
 //Modal Button
-const openModal = document.getElementById("open")
-const modalContainer = document.getElementById("modal_container")
-const closeModal = document.getElementById("close")
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
 
-openModal.addEventListener('click', () => {
-    modalContainer.classList.add('show')
-});
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
 
-closeModal.addEventListener('click', () => {
-    modalContainer.classList.remove('show')
-});
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 //modal button^^
