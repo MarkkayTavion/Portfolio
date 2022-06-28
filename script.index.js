@@ -30,10 +30,3 @@ function expand() {
         j = 0;
     }
 }
-//Navigation^^
-// home.addEventListener('click', (event) =>{
-//     event.stopPropagation()
-//     console.log("hello")
-// })
-
-// console.log(home)
