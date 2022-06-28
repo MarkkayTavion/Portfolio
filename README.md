@@ -2,11 +2,9 @@
 # Devontae Ferguson Portfolio
 
 This app and website is a personal Portfolio for Devontae Ferguson. This portfolio will show case all basic information as well as showcase projects.
-
+This is to show a calm progressive feel as you are navigating throughtout to learn more about Devontae and his learning/application of HTML, CSS. and JavaSCript.
 
 ## Documentation
-
-[Documentation](https://linktodocumentation)
 
 
 ## Installation
@@ -35,7 +33,7 @@ This portfolio can be visited at https://app.netlify.com/sites/gleaming-rabanada
 
 
 ## Screenshots
-
+https://github.com/MarkkayTavion/Portfolio/issues/1#issue-1287789180
 MY APP SCREEN SHOTS
 ## Authors
 

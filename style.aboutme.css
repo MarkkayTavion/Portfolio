@@ -184,6 +184,12 @@ img {
     text-decoration: none;
     cursor: pointer;
   }
+  /* iframe {
+    display: block;
+    height: 1000px;
+    width: 1200px;
+    z-index: 1;
+  } */
 
 /*Footer*/
 .footer {

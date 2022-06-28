@@ -1,7 +1,6 @@
 body {
     background-image: url('/Wireframes/images.png/background-contact.png');
-    
-    height: 650px;
+    height: 900px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,8 +34,8 @@ span {
 
 .toggle {
     height: 0px;
-    width: 80px;
-    border-bottom: 30px solid #ff9900;
+    width: 100px;
+    border-bottom: 40px solid #ff9900;
     border-right: 15px solid transparent;
     border-left: 15px solid transparent;
     position: absolute;
@@ -56,7 +55,7 @@ span {
 }
 
 .item {
-    height: 0px;
+    height: 10px;
     width: 90px;
     border-bottom: 30px solid #fff;
     border-right: 15px solid transparent;
@@ -250,6 +249,8 @@ form{
     text-align: center;
   }
 
+
+
   @media screen and (min-width: 1500px) and (max-width: 2150px) {
     #contact-photo {
         position: absolute;
@@ -264,13 +265,24 @@ form{
   @media screen and (min-width: 1234px) and (max-width: 1499px) {
     #contact-photo {
         position: absolute;
-        height: 520px;
-        width: 450px;
+        height: 650px;
+        width: 445px;
         bottom: 20px;
-        left: 75px;
-        top: 24vh;
+        left: 55px;
+        top: 17em;
         border-radius: 5%;
     }
+    .form-field{
+        font: 95% Arial, Helvetica, sans-serif;
+        max-width: 450px;
+        margin: 10px auto;
+        padding: 16px;
+        background: #8f2626;
+        position: absolute;
+        top: 25em;
+        right: 5px;
+            
+        }
   }
   @media screen and (min-width: 600px) and (max-width: 1233px) {
     #contact-photo {
@@ -328,11 +340,11 @@ form{
     }
     #contact-photo {
         position: absolute;
-        height: 420px;
-        width: 350px;
+        height: 320px;
+        width: 250px;
         bottom: 20px;
-        left: 75px;
-        top: 24vh;
+        left: 25px;
+        top: 30vh;
         border-radius: 5%;
     }
     .socials {

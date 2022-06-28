@@ -1,9 +1,5 @@
 body {
     background-image: url('/Wireframes/images.png/background-projects.png');
-   
-    /* height: ; */
-    /* background-position: fixed center; */
-    /* background-repeat: no-repeat; */
     background-size: cover;
     position: relative;
     -webkit-background-size: cover;
@@ -20,7 +16,6 @@ span {
     height: 200px;
     width: 200px;
     position: fixed;
-    /* margin: auto; */
     top: 10em;
     bottom: 0;
     left: 25px;
@@ -35,8 +30,8 @@ span {
 
 .toggle {
     height: 0px;
-    width: 80px;
-    border-bottom: 30px solid #ff9900;
+    width: 100px;
+    border-bottom: 50px solid #ff9900;
     border-right: 15px solid transparent;
     border-left: 15px solid transparent;
     position: absolute;
@@ -58,7 +53,7 @@ span {
 .item {
     height: 0px;
     width: 100px;
-    border-bottom: 30px solid #fff;
+    border-bottom: 40px solid #fff;
     border-right: 15px solid transparent;
     border-left: 15px solid transparent;
     position: absolute;
@@ -126,11 +121,6 @@ p {
     font-family: 'Smooch', cursive;
     font-size: 30px;
 }
-
-
-
-
-
 
 /* prject grid */
 .project-grid {
