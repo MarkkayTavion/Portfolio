@@ -31,6 +31,9 @@ This portfolio can be visited at https://gleaming-rabanadas-c8fd16.netlify.app/
 
 **Server:** Node
 
+## Frames
+
+https://github.com/MarkkayTavion/Portfolio/issues/2#issue-1287875345
 
 ## Screenshots
 https://github.com/MarkkayTavion/Portfolio/issues/1#issue-1287789180
