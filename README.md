@@ -24,7 +24,7 @@ To deploy this project run
   npm run deploy
 ```
 
-This portfolio can be visited at https://app.netlify.com/sites/gleaming-rabanadas-c8fd16
+This portfolio can be visited at https://gleaming-rabanadas-c8fd16.netlify.app/
 ## Tech Stack
 
 **Client:** Html, JavaScript, Css, Bootstrap 
